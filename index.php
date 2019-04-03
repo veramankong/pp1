@@ -5,6 +5,9 @@ include('functions.php');
 printArr($numbers);
 
 largest($numbers);
+
+average($numbers);
+
 ?>
 
 <!doctype html>

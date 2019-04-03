@@ -9,6 +9,9 @@ function printArr($numbers) {
 }
 
 function largest($numbers) {
-    echo "Max num = " . max($numbers);
+    echo "<br>Max num = " . max($numbers);
 }
 
+function average($numbers){
+    echo "<br>Average number = " . array_sum($numbers)/count($numbers);
+}
