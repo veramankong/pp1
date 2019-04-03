@@ -8,6 +8,8 @@ largest($numbers);
 
 average($numbers);
 
+removeDups($numbers);
+
 ?>
 
 <!doctype html>

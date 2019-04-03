@@ -9,9 +9,16 @@ function printArr($numbers) {
 }
 
 function largest($numbers) {
-    echo "<br>Max num = " . max($numbers);
+    echo "<br>Max num = " . max($numbers) . "<br>";
 }
 
 function average($numbers){
-    echo "<br>Average number = " . array_sum($numbers)/count($numbers);
+    echo "Average number = " . array_sum($numbers)/count($numbers) . "<br>";
+}
+
+function removeDups($numbers) {
+    $newArray = array_unique($numbers);
+    foreach ($newArray as $unique){
+        echo $unique . "<br>";
+    }
 }
