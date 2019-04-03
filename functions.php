@@ -4,6 +4,11 @@ $numbers = array(7, 9, 8, 9, 8, 8, 6);
 
 function printArr($numbers) {
     foreach ($numbers as $number){
-        echo $number;
+        echo $number . "<br>";
     }
 }
+
+function largest($numbers) {
+    echo "Max num = " . max($numbers);
+}
+
