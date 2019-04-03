@@ -22,3 +22,10 @@ function removeDups($numbers) {
         echo $unique . "<br>";
     }
 }
+
+function distribution($numbers) {
+    $distArray = array_count_values($numbers);
+    ksort($distArray);
+    echo "<br>";
+    print_r($distArray);
+}

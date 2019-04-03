@@ -10,6 +10,8 @@ average($numbers);
 
 removeDups($numbers);
 
+distribution($numbers);
+
 ?>
 
 <!doctype html>
